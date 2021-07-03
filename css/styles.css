@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    height: 1rem;
+}
+
+.banner-ofertas{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.2em 3em;
+}
+
+.lista-lenguaje{
+    list-style: none;
+    display: flex;
+}
+
+.lista-lenguaje li{
+    margin: 0 0.6em;
+}
+
+.navegacion-principal{
+    background-color: #F0A83E;
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 2em;
+}
+
+.lista-principal {
+    list-style: none;
+    display: flex;
+}
+
+.lista-principal li{
+    margin: 0 1em;
+    color: white;
+}
+
+.banner-principal{
+    background-image: url('../img/background_slider.png');
+    height: 440px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.texto-1{
+    background-color: white;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    border-radius: 4%;
+    font-size: 2rem;
+}
+
+.texto-2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.texto-2 div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-2 button{
+    background-color: #F0A83E;
+    padding: 0.5rem;
+    color: white;
+    border-style: none;
+}
+
+.centralizar-columna{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1em;
+}
+
+.input-contactanos{
+    background-color: #3C2313;
+    padding: 1em 0.2em;
+    border-radius: 10%;
+    border-style: none;
+    margin: 0.1em;
+    color: white;
+    min-width:300px;
+}
+
+.btn{
+    border-radius: 20%;
+    border-style: none;
+    padding: 0.5rem 3em;
+    margin: 0.5rem 1rem;
+}
+
+.btn-resetear{
+    background-color: #8A8787;
+}
+
+.btn-enviar{
+    background-color: #F0A83E;
+}
+
+.novedades{
+    background-color: #F0A83E;
+}
+
+.titulo-suscripcion{
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.titulo-suscripcion p{
+    padding: 0.5rem;
+    color: white;
+}
+
+.form-suscripcion{
+    padding: 0.5rem;
+}
+
+.form-suscripcion input{
+    background-color: white;
+    padding: 0.5em 0.2em;
+    border-radius: 10%;
+    border-style: none;
+    margin: 0.1em;
+    color: white;
+    padding: 0.5em 2em;
+}
+
+.btn-suscribirse{
+    padding: 0.5em 2em;
+    background-color: #3C2313;
+    color: white;
+}
+
+@media(max-width: 450px){
+    .lista-principal{
+        display: none;
+    }
+}
+
+@media(min-width: 450px){
+    .menu-icon{
+        display: none;
+    }
+}
